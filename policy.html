@@ -7,7 +7,7 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <title>ProductiveWeb | Policy</title>
     </head>
-    <body class="bg-base-100 min-h-screen w-full">
+    <body class="bg-base-100 flex min-h-screen w-full flex-col">
         <div class="navbar bg-base-200 shadow-sm">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -41,35 +41,37 @@
             </div>
         </div>
 
-        <h2 class="p-5 text-center text-3xl">🛡️ Privacy Policy</h2>
-        <div class="flex w-full flex-col px-7">
-            <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5">
-                <b>1. Information We Collect</b><br />
-                We do not collect any personally identifiable information from users. However, the extension may collect anonymous usage data to improve performance and user experience. If the extension requests permissions (such as access to tabs, browsing data, etc.), they are only used to provide the core functionality of the extension and are never used to track users.
+        <main class="grow">
+            <h2 class="p-5 text-center text-3xl">🛡️ Privacy Policy</h2>
+            <div class="flex w-full flex-col px-7">
+                <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5">
+                    <b>1. Information We Collect</b><br />
+                    We do not collect any personally identifiable information from users. However, the extension may collect anonymous usage data to improve performance and user experience. If the extension requests permissions (such as access to tabs, browsing data, etc.), they are only used to provide the core functionality of the extension and are never used to track users.
+                </div>
+                <div class="divider"></div>
+                <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5">
+                    <b>2. Use of Information</b><br />
+                    Any data collected (if applicable) is used solely for the following purposes:
+                    <ul class="list-decimal pl-10">
+                        <li>To improve extension functionality.</li>
+                        <li>To fix bugs and monitor performance.</li>
+                        <li>To enhance user experience.</li>
+                    </ul>
+                    We do not sell, trade, or share your data with third parties.
+                </div>
+                <div class="divider"></div>
+                <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5"><b>3. Third-Party Services </b><br />This extension does not integrate or rely on third-party services that collect personal data.</div>
+                <div class="divider"></div>
+                <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5"><b>4. Data Security </b><br />We take reasonable precautions to protect any data that may be collected. However, please be aware that no method of internet transmission or electronic storage is 100% secure.</div>
+                <div class="divider"></div>
+                <div class="card bg-base-200 rounded-box place-items-right mb-6 grid h-auto p-5">
+                    <b>5. Changes to This Policy </b><br />
+                    We may update this Privacy Policy from time to time. All changes will be posted on this page with an updated effective date.
+                </div>
             </div>
-            <div class="divider"></div>
-            <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5">
-                <b>2. Use of Information</b><br />
-                Any data collected (if applicable) is used solely for the following purposes:
-                <ul class="list-decimal pl-10">
-                    <li>To improve extension functionality.</li>
-                    <li>To fix bugs and monitor performance.</li>
-                    <li>To enhance user experience.</li>
-                </ul>
-                We do not sell, trade, or share your data with third parties.
-            </div>
-            <div class="divider"></div>
-            <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5"><b>3. Third-Party Services </b><br />This extension does not integrate or rely on third-party services that collect personal data.</div>
-            <div class="divider"></div>
-            <div class="card bg-base-200 rounded-box place-items-right grid h-auto p-5"><b>4. Data Security </b><br />We take reasonable precautions to protect any data that may be collected. However, please be aware that no method of internet transmission or electronic storage is 100% secure.</div>
-            <div class="divider"></div>
-            <div class="card bg-base-200 rounded-box place-items-right mb-6 grid h-auto p-5">
-                <b>5. Changes to This Policy </b><br />
-                We may update this Privacy Policy from time to time. All changes will be posted on this page with an updated effective date.
-            </div>
-        </div>
+        </main>
 
-        <footer class="bg-base-200 bottom-0 flex h-14 w-full items-center justify-center">
+        <footer class="bg-base-200 mt-auto flex h-14 w-full items-center justify-center">
             <p class="text-sm">Developed with 💚 by Byte Bout</p>
         </footer>
     </body>
